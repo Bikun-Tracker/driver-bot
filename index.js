@@ -31,7 +31,7 @@ function clientRunner(client, route, ms, name) {
 }
 
 async function main() {
-  for (let index = 0; index < 4; index++) {
+  for (let index = 0; index < 5; index++) {
     const url = `wss://api.bikunku.com/bus/stream?type=driver&experimental=true&experimentalId=${
       index + 1
     }`;
